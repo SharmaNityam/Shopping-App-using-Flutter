@@ -3,7 +3,7 @@ import 'package:sneaker_shop/models/shoe.dart';
 
 class Cart extends ChangeNotifier{
 
-  //list of shoes for sale
+  // list of shoes for sale
 List<Shoe> shoeShop = [
   Shoe(
     name: 'Zoom Freak', 
@@ -18,7 +18,7 @@ List<Shoe> shoeShop = [
     imagePath: 'lib/images/aj1.jpeg'
     ),
     Shoe(
-    name: 'KD Treys', 
+    name: ' ', 
     price: '94000', 
     description: 'Better grip', 
     imagePath: 'lib/images/aj4sm.jpg'
